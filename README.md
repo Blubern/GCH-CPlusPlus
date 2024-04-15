@@ -16,8 +16,8 @@ To use GitHub Copilot, you must have an active subscription for GitHub Copilot i
 
 ### Useful Resources
 
-[Video](https://www.youtube.com/watch?v=jXp5D5ZnxGM) on different ways to use GitHub Copilot in VS Code.
-[Video] (https://www.youtube.com/watch?v=2nPoiUJpDaU) on top 10 features.
+-[Video](https://www.youtube.com/watch?v=jXp5D5ZnxGM) on different ways to use GitHub Copilot in VS Code.
+-[Video](https://www.youtube.com/watch?v=2nPoiUJpDaU) on top 10 features.
 
 ### Nice to know: GitHub Copilot Shortcuts
 
