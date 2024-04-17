@@ -1,23 +1,16 @@
 // Calculate interest rate with compound interest
-
-#include <iostream>
 #include <cmath>
-using namespace std;
 
-int main() {
-    double kapital, zinssatz, zinsen;
-    int laufzeit;
+double berechneZinsen(double kapital, double zinssatz, int laufzeit) {
+    return kapital * pow(1 + zinssatz / 100, laufzeit) - kapital;
+}
 
-    cout << "Kapital: ";
-    cin >> kapital;
-    cout << "Zinssatz: ";
-    cin >> zinssatz;
-    cout << "Laufzeit: ";
-    cin >> laufzeit;
+void runZinsesZinsRechnung() {
+    double kapital = 1000.0;
+    double zinssatz = 5.0;
+    int laufzeit = 2;
 
-    zinsen = kapital * pow(1 + zinssatz / 100, laufzeit) - kapital;
-    cout << "Zinsen: " << zinsen << endl;
-
-    return 0;
+    double zinsen = berechneZinsen(kapital, zinssatz, laufzeit);
+    std::cout << "Zinsen: " << zinsen << std::endl;
 }
 
