@@ -1,8 +1,8 @@
-# GCH-CPlusPlus
+# GCH - C++
 
 This is a repository for a GitHub Copilot for Business Hackathon with C++
 
-## What are we building
+## ⚒️What are we building
 We are building a interest calculator together with a unittest. 
 
 ## Prerequisites 
@@ -21,12 +21,12 @@ sudo apt-get install libgtest-dev
 
 To use GitHub Copilot, you must have an active subscription for GitHub Copilot in your personal account, or you need to be assigned a seat by your organization. Sign up for a [GitHub Copilot free trial](https://github.com/settings/copilot) in your personal account.
 
-### Additional useful Resources
+### 📖 Additional useful Resources
 
 - [Video](https://www.youtube.com/watch?v=jXp5D5ZnxGM) on different ways to use GitHub Copilot in VS Code.
 - [Video](https://www.youtube.com/watch?v=2nPoiUJpDaU) on top 10 features.
 
-### Nice to know: GitHub Copilot Shortcuts
+### ⌨️ Nice to know: GitHub Copilot Shortcuts
 
 | Shortcut | Description |
 | --- | --- |
