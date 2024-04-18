@@ -14,3 +14,5 @@ void runZinsesZinsRechnung() {
     std::cout << "Zinsen: " << zinsen << std::endl;
 }
 
+g++ -o ZinsesZinsRechnungTest ZinsesZinsRechnungTest.cpp -lgtest -lgtest_main -pthread
+./ZinsesZinsRechnungTest
