@@ -3,7 +3,11 @@
 #include <cmath>
 using namespace std;
 
-int main() {
+double berechneZinsen(double kapital, double zinssatz, int laufzeit) {
+    return kapital * zinssatz / 100 * laufzeit;
+}
+
+void runZinsrechnung() {
     double kapital, zinssatz, zinsen;
     int laufzeit;
 
@@ -14,8 +18,6 @@ int main() {
     cout << "Laufzeit: ";
     cin >> laufzeit;
 
-    zinsen = kapital * zinssatz / 100 * laufzeit;
+    zinsen = berechneZinsen(kapital, zinssatz, laufzeit);
     cout << "Zinsen: " << zinsen << endl;
-
-    return 0;
 }
