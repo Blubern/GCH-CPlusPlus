@@ -58,6 +58,12 @@ Task: Build a simple unittest for the interest calculator. Test different scenar
 
 # ⚠️SPOILER ALERT: Here are some sample prompts if you get stuck!
 You can find solutions in the `Solutions` folder.
+## How to run test file with gtest
+```bash
+g++ -o ZinsesZinsRechnungTest ZinsesZinsRechnungTest.cpp -lgtest -lgtest_main -pthread
+./ZinsesZinsRechnungTest
+```
+
 ## Sample prompts
 
 ### Scenario 0
