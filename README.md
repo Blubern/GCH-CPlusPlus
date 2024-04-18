@@ -6,8 +6,7 @@ This is a repository for a GitHub Copilot for Business Hackathon with C++
 We are building a interest calculator together with a unittest. 
 
 ## Prerequisites 
-
-Please install the following extentions. 
+This introduction is written for VSCode/GitHub Codespaces. Please install the following extentions. 
 
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) 
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
