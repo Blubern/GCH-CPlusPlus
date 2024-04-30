@@ -1,4 +1,4 @@
-# GCH - C++
+# GCH C++ (VS Code & GitHub Codespaces)
 
 This is a repository for a GitHub Copilot for Business Hackathon with C++
 
@@ -12,7 +12,7 @@ This introduction is written for **VSCode/GitHub Codespaces**. Please install th
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) (will install automatically)
 
-In addition, please execute the following commands:
+In addition, please execute the following commands in the **terminal**:
 ```bash
 sudo apt-get update
 sudo apt-get install libgtest-dev
