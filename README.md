@@ -1,24 +1,19 @@
 # GCH C++ (VS Code & GitHub Codespaces)
 
-This is a repository for a GitHub Copilot for Business Hackathon with C++
+This is a repository for a GitHub Copilot Demo for C++
 
 ## ⚒️What are we building
 We are building a interest calculator together with a unittest. 
 
-## Prerequisites 
-This introduction is written for **VSCode/GitHub Codespaces**. Please install the following extentions. 
-
-- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) 
-- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) (will install automatically)
-
-In addition, please execute the following commands in the **terminal**:
-```bash
-sudo apt-get update
-sudo apt-get install libgtest-dev
-```
-
-To use GitHub Copilot, you must have an active subscription for GitHub Copilot in your personal account, or you need to be assigned a seat by your organization. Sign up for a [GitHub Copilot free trial](https://github.com/settings/copilot) in your personal account.
+## Step 0️⃣: Prerequisites
+1. **Clone** or **Fork** this Repository 
+2. Open **GitHub Codespaces or VS Code**    
+2.1 The demo can also be run in other IDEs. However, the hints are only given for GitHub Codespaces and Visual Studio Code.     
+3. Please install the following extentions.     
+3.1 [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)     
+3.2 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)    
+3.3 [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) (will install automatically) 
+4. Get yourself familiar with GitHub Copilot.
 
 ### 📖 Additional useful Resources
 
@@ -33,49 +28,22 @@ To use GitHub Copilot, you must have an active subscription for GitHub Copilot i
 | `Ctrl`+`Alt`+`i` | Move to chat |
 | `Ctrl`+`Enter` | Accept code suggestion from chat |
 
-## Scenario 0️⃣: Start with Copilot
-Task: Get yourself familiar with Copilot inline code and Copilot chat. Try out Slash commands
+## Scenario 1️⃣: Understanding an existing file
+As a software engineer, you often need to understand code written by others. The first scenario shows you how to use the /explain and the /fix command of Copilot.
 
-```cpp
-//help
-```
-together with `Strg` + `Alt` + `Enter` and ask Copilot some questions about code / coding.ch
+## Scenario 2️⃣: Creating Code
+In the second scenario, you will build a compound interest calculator. You will see how fast you can generate code.
+## Scenario 3️⃣: Building unit tests 
+At last, you will build unit tests for the compound interest calculator using Copilot. You may want to use the /tests command for this. 
 
-## Scenario 1️⃣: Create interest calculator without compound interest
-Task: Use GitHub Copilot chat to create an interest calculator in C++ (.cpp file). Keep in mind that you want to import this module later in your unittest file.
-Hint: If you're unsure about the formula for interest without compound, ask Copilot for assistance.
-
-## Scenario 2️⃣: Create interest calculator with compound interest
-Task: Use GitHub Copilot to create an interest calculator **with compound interest**. But this time, use the comment or online chat function to ask Copilot for assistance.
-
-## Scenario 3️⃣: Build simple unittest 
-Task: Build a simple unittest for the interest calculator. Test different scenarios such as:
+Test different scenarios such as:
 - Calculating interest for different principal amounts
 - Calculating interest for different interest rates
 - Checking that the calculated interest matches the expected result
 
 
-# ⚠️SPOILER ALERT: Here are some sample prompts if you get stuck!
-You can find solutions in the `Solutions` folder.
-## How to run test file with gtest
-```bash
-g++ -o ZinsesZinsRechnungTest ZinsesZinsRechnungTest.cpp -lgtest -lgtest_main -pthread
-./ZinsesZinsRechnungTest
-```
+## ⚠️ Hints and Solutions
+In case you feel stuck, you may want to reach out to the hints or solution folder. There, you can find helpful tipps and bugfixes, which may help you.
 
-## Sample prompts
-
-### Scenario 0
-Say Hello
-```
-Hello Copilot. Please answer in english.
-```
-
-Try these commands
-```
-/help
-/fix
-@Workspace
-#file
-/explain
-```
+## 🗨️ Remember: Context is key
+Copilot cannot read you mind. Try to be precise in your wording. Also, you want to use the **@-Command** to provide better context and the **/-Command** to make the task clear.
