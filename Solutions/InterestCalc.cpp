@@ -2,7 +2,8 @@
 #include <cmath>
 
 double calculateInterest(double principal, double rate, int time) {
-    double interest = principal * rate * rate;
+    // Here was the mistake. The formula for calculating simple interest is principal * rate * time.
+    double interest = principal * rate * time;
     return interest;
 }
 
