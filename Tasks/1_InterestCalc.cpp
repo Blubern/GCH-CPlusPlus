@@ -1,8 +1,8 @@
-// 1. Get familiar with the Code using Copilot and /explain command
-// 2. Find the mistake using Copilot and /fix command 
-// 3. Fix the mistake in the code
-// 4. Run in terminal. In case you need help, you may want to ask Copilot
-// 5. Add Documentation to the code using Copilot and /doc command
+// 1. Familiarize yourself with the code using Copilot and the /explain command.
+// 2. Find the mistake using Copilot and the /fix command.
+// 3. Fix the mistake in the code.
+// 4. Run the code in the terminal. If you need help, you may want to ask Copilot.
+// 5. Add documentation to the code using Copilot and the /doc command.
 #include <iostream>
 #include <cmath>
 

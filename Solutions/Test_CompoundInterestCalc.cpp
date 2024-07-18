@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "CompoundInterestCalc.cpp" // Geändert von .cpp zu .h, um die Header-Datei einzubeziehen
+#include "CompoundInterestCalc.cpp"
 
 TEST(CompoundInterestCalcTest, calculateCompoundInterestTest) {
     double principal = 1000.0;

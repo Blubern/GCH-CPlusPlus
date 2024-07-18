@@ -1,2 +1,2 @@
-// Task: Create Unit Tests for CompoundInterestCalc.cpp
-// You may want to use Copilot and the /tests command for this task.
+// Task: Create unit tests for CompoundInterestCalc.cpp.
+// Use Copilot and the /tests command to assist with this task.
